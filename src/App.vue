@@ -1,8 +1,6 @@
 <template>
   <div class="hidden" id="App">
-
     <vs-row class="mh" justify="space-between" direction="column">
-
       <vs-col>
         <vs-navbar target-scroll="#padding-scroll-content" hide-scroll center-collapsed fixed v-model="active"
           ref="navbar">
