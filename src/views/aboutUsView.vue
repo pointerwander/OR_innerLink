@@ -1,72 +1,6 @@
 <template>
   <div id="aboutUs">
-
-    <!-- <div id="CompanyImage">
-      <img src='https://www.tencent.com/img/banners/brief-1.jpg' style="width: calc(100%);" />
-    </div>
-
-    <div id="CompanyProfile" style="padding: 70px;">
-      <h1>公 司 简 介</h1>
-      <h3><strong>指针漫游是一家基于AI提供个性化教育服务的互联网科技公司，用创新的产品帮助每个人达成目标。</strong></h3>
-      <p>指针漫游最先由广东理工职业学院学子提起，在学校内获得成立。</p>
-    </div>
-
-    <div id="CompanyDeeds" style="padding: 70px;">
-      <h1>公 司 事 迹</h1>
-      <vs-card-group>
-        <vs-card v-for="body in theCompanyDeedsContent" :key="body.id" type="1">
-          <template #title>
-            <h2>{{ body.title }}</h2>
-          </template>
-
-          <template #img>
-            <img :src="body.pic" :alt="body.text">
-          </template>
-
-          <template #text>
-            <p style="font-size: 20px;">{{ body.text }}</p>
-          </template>
-        </vs-card>
-      </vs-card-group>
-    </div>
-
-    <div id="ProfessionalTeam" style="padding: 70px;">
-      <h1>专 业 团 队</h1>
-      <vs-avatar-group float max="8">
-        <vs-avatar badge badge-position="bottom-left" badge-color="rgb(59,222,200)" size="160"
-          v-for="body in theProfessionalTeamContent" :key="body.id" style="margin: 10px;">
-          <img :src="body.pic" alt="">
-          <template #badge>
-            <vs-tooltip color="rgb(59,222,200)" border-thick style="padding: 10px;">
-              <i style="font-size: 20px;">{{ body.text }}</i>
-              <template #tooltip>
-                {{ body.text }}
-              </template>
-            </vs-tooltip>
-          </template>
-        </vs-avatar>
-      </vs-avatar-group>
-
-
-
-    </div>
-
-    <div id="ContactInformation" style="padding: 70px;">
-      <h1>联 系 我 们</h1>
-      <template>
-        <vs-row justify="space-between">
-          <vs-col w="3" v-for="body in theContactInformationContent" :key="body.id">
-            <vs-alert color="rgb(59,222,200)" shadow relief style="max-width: 300px;min-height: 85px;">
-              <template #title>
-                <h2>{{ body.title }}</h2>
-              </template>
-              <i style="font-size: 20px;">{{ body.text }}</i>
-            </vs-alert>
-          </vs-col>
-        </vs-row>
-      </template>
-    </div> -->
-
+  
     <!--  创作者数据  -->
     <vs-card type="3">
       <template #title>
@@ -289,9 +223,4 @@ export default {
 </script>
 
 <style>
-/* #aboutUs{
-  background: url("https://www.tencent.com/img/banners/brief-1.jpg");
-  background-size: 100%;
-} */
-
 </style>

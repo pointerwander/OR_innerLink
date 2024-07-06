@@ -1,8 +1,6 @@
 <template>
   <div class="hidden" id="App">
-
     <vs-row class="mh" justify="space-between" direction="column">
-
       <vs-col>
         <vs-navbar target-scroll="#padding-scroll-content" hide-scroll center-collapsed fixed v-model="active"
           ref="navbar">
@@ -26,37 +24,9 @@
       <vs-col :style="`margin-top: ${navbarHeight}px`">
         <router-view></router-view>
       </vs-col>
-
-      <!-- <vs-col>
-        <div id="footer" style="background-color: azure;padding: 20px;">
-
-          <vs-row justify="flex-start">
-            <vs-col w="1.5">
-              <h4>关注我们</h4>
-            </vs-col>
-            <vs-col w="3">
-              <vs-button-group>
-                <vs-button icon color="dribbble"> <a>微博</a> </vs-button>
-                <vs-button icon color="dribbble"> <a>哔哩哔哩</a> </vs-button>
-                <vs-button icon color="dribbble"> <a>小红书</a> </vs-button>
-                <vs-button icon color="dribbble"> <a>酷安</a> </vs-button>
-                <vs-button icon color="dribbble"> <a>抖音</a> </vs-button>
-                <vs-button icon color="dribbble"> <a>快手</a> </vs-button>
-              </vs-button-group>
-            </vs-col>
-          </vs-row>
-
-          <p>Copyright © 2023 - 2024 PointerWandering. All Rights Reserved. 指针漫游 版权所有</p>
-
-        </div>
-      </vs-col> -->
-
     </vs-row>
-
   </div>
 </template>
-
-
 
 <script>
   export default {
