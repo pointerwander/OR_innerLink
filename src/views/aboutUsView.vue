@@ -1,5 +1,6 @@
 <template>
   <div id="aboutUs">
+  
     <!--  创作者数据  -->
     <vs-card type="3">
       <template #title>
@@ -41,7 +42,7 @@
       </template>
 
       <template #interactions>
-        <vs-button success icon style="margin-bottom: 25px;">
+        <vs-button danger icon style="margin-bottom: 25px;">
           <i class='bx bx-heart'></i>
           发布新作品
         </vs-button>
@@ -222,5 +223,4 @@ export default {
 </script>
 
 <style>
-
 </style>

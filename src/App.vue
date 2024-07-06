@@ -24,13 +24,9 @@
       <vs-col :style="`margin-top: ${navbarHeight}px`">
         <router-view></router-view>
       </vs-col>
-
     </vs-row>
-
   </div>
 </template>
-
-
 
 <script>
   export default {
