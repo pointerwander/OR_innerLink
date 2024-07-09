@@ -55,16 +55,15 @@
             </div>
             <p>查看更多 ></p>
         </div>
-        <div class="footer"  >
+        <div class="footer">
             <vs-row justify="space-around">
                 <vs-button shadow v-for="(col, index) in cols" :key="index" class="col" vs-type="flex"
                     vs-justify="center" vs-align="center" w="3">
-                    <h3 >
+                    <h3>
                         <a v-html="col.html"></a> 
                         {{ col.name }}
                     </h3>
                 </vs-button>
-                
             </vs-row>
         </div>
     </div>

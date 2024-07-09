@@ -24,6 +24,12 @@ const routes = [
   },
 
   {
+    path: '/thirdlist',
+    name: 'thirdlist',
+    component:() => import("../views/thirdInformation.vue")
+  },
+
+  {
     path: '/service',
     name: 'service',
     component:() => import("../views/customerService.vue")
