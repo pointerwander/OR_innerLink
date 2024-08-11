@@ -12,6 +12,12 @@ const routes = [
   },
 
   {
+    path: '/test',
+    name: 'test',
+    component:() => import("../views/mbtiTest.vue")
+  },
+
+  {
     path: '/badeg',
     name: 'badeg',
     component:() => import("../views/badegView.vue")
@@ -40,7 +46,7 @@ const routes = [
     name: 'badeg1',
     component:() => import("../views/badegView1.vue")
   },
-   
+  
   {
     path: '/about',
     name: 'about',
