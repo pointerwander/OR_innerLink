@@ -119,10 +119,13 @@ export default{
 }
 
 .content{
-    background: linear-gradient(to bottom,rgb(240, 247, 180),rgb(222, 222, 222));
+    /* background: linear-gradient(to bottom,rgb(240, 247, 180),rgb(222, 222, 222)); */
+    background-color:white ;
+    z-index: -10000;
+    /* filter: blur(8px);  */
     height: 100%;
     border: 1px solid #ddd;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 1);
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 1);
     border-radius: 10px 10px 0 0;
 }
 
