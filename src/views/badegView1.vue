@@ -64,7 +64,7 @@ export default{
             this.badegs[index].isShow = !this.badegs[index].isShow
         },
         generatePieces(){
-            for (let i=0; i<100; i++){
+            for (let i=0; i<10; i++){
                 this.pieces.push({
                     id: i,
                     style: this.getPieceStyle()
@@ -75,7 +75,7 @@ export default{
             const size = Math.random()*5 + 5 + 'px';
             const left = Math.random()*100 + 'vw';
             const top = '-10vh';
-            const duration = Math.random()*5 + 5 + 's';
+            const duration = Math.random()*8 + 10 + 's';
             const delay = Math.random()*2 + 's';
 
             return{
@@ -119,7 +119,7 @@ export default{
 }
 
 .content{
-    background: linear-gradient(to bottom,rgb(236, 247, 129),rgb(201, 204, 193));
+    background: linear-gradient(to bottom,rgb(240, 247, 180),rgb(222, 222, 222));
     height: 100%;
     border: 1px solid #ddd;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 1);
